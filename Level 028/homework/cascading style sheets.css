@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.GOA-description{
+    color: white;
+    font-size: 21px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
