@@ -3,4 +3,5 @@
 def lion4(arr1):
     for x in range(1,10,2):
         arr1.append(arr1)
+# calling a function
 print(lion4([]))
