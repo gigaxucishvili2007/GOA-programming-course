@@ -1,0 +1,7 @@
+.color-changer{
+    color: maroon;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 1.7em;
+    border: solid chartreuse 4px;
+}

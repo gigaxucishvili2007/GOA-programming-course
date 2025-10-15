@@ -1,0 +1,39 @@
+body{
+    background-color: yellow;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    clip-path: circle();
+}
+
+.naruto-text{
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+    bottom: -30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+
+.naruto-2{
+    clip-path: circle();
+    width: 180px;
+    position: relative;
+    bottom: -370px;
+    left: 175px;
+}
+
+.naruto-3{
+    clip-path: circle();
+    width: 325px;
+    position: relative;
+    bottom: -332px;
+    left: 180px;
+}
