@@ -1,0 +1,33 @@
+body{
+    background-image: url(./gifs/Lion.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#parent-element{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    position: relative;
+    top: 270px;
+    border-radius: 8px;
+}
+.claw{
+    width: 50px;
+}
+
+.claw-parent{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    position: relative;
+    bottom: 1375px;
+}

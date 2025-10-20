@@ -1,0 +1,56 @@
+body{
+    background-image: url(./gifs/THE\ THREE\ STOOGES.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.THE-THREE-STOOGES-description{
+    font-size: 2em;
+    border-radius: 5px;
+}
+
+#parent{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -45px;
+}
+
+.person1{
+    width: 50px;
+}
+
+.parent-2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -150px;
+}
+
+.person2{
+    width: 50px;
+}
+
+.parent-3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* left, right bottom, top ✔️*/
+    left: -50px;
+    top: -200px;
+}
+
+.parent-4{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -250px;
+    left: 50px;
+}
+
+.style-audio{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
