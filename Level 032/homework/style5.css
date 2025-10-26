@@ -1,0 +1,59 @@
+body{
+    background-image: url(./img/HOME_XR_Hero-KV_1920x1080_pc-updated.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.model{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 280px;
+    top: 30px;
+}
+
+#main-box{
+    color: rgb(21, 27, 116);
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.element{
+    position: relative;
+    top: -35px;
+    right: 180px;
+}
+
+.searchengine{
+    width: 176px;
+    border: none;
+    height: 43px;
+    border-radius: 6.94444444vw;
+    opacity: 0.5;
+}
+
+.icon-search{
+    position: relative;
+    left: 50px;
+    top: -5px;
+}
+
+.SEO-main{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -120px;
+    left: -180px;
+}
+
+.text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.shop-1{
+    position: relative;
+    top: -5px;
+    left: -3px;
+}
