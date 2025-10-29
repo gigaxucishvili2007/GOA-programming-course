@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Averta TBC'; /* თქვენი შერჩეული სახელი */
+    src: url('/fonts/averta-regular.woff2') format('woff2'),
+         url('/fonts/averta-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; /* უზრუნველყოფს სწრაფ ჩატვირთვას */
+}
+
+/* შემდეგ გამოიყენებთ: */
+body {
+    font-family: 'Averta TBC', sans-serif;
+    font-weight: 550;
+}
+
+.flowers-ge{
+    position: relative;
+    left: 550px;
+    width: 210px;
+    height: auto;
+}
+
+.valute{
+    position: relative;
+    left: 845px;
+    top: -100px;
+}
+
+.my-child{
+    position: relative;
+    left: 923px;
+    top: -134px;
+    border-radius: 10px;
+}
+
+.search{
+    width: 170px;
+    background: #fff;
+    position: relative;
+    left: 950px;
+    border-radius: 10px;
+    top: -134px;
+}
+
+.search-icon-black{
+    position: relative;
+    left: 925px;
+    top: -131px;
+    width: 16px;
+}
+
+.log-in-registration{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    position: relative;
+    top: -170px;
+    right: 433px;
+    /* right - left */
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+    position: relative;
+    left: 190px;
+    top: -185px;
+    font-size: 14px;
+}
+
+.flower-section1{
+    width: 675px;
+    height: 500px;
+    position: relative;
+    left: 805px;
+    top: -160px;
+}

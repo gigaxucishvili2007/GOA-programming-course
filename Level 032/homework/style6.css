@@ -11,7 +11,7 @@
 .Spoon{
     width: 27px;
     position: relative;
-    left: 500px;
+    left: 465px;
     top: 30px;
 }
 
@@ -19,13 +19,13 @@
     text-transform: uppercase;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    left: 541px;
+    left: 400px;
     top: -12px;
 }
 
 .Store{
     position: relative;
-    left: 595px;
+    left: 500px;
     top: 30px;
 }
 
@@ -33,6 +33,27 @@
     text-transform: uppercase;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    left: 670px;
+    left: 570px;
     top: -46px;
+}
+
+.ლუტეცია{
+    position: relative;
+    left: 705px;
+    top: -110px;
+}
+
+.user{
+    position: relative;
+    left: 800px;
+    top: -145px;
+}
+
+.account{
+    color: rgb(31, 29, 29);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 1450px;
+    top: -190px;
+    width: 50px;
 }
