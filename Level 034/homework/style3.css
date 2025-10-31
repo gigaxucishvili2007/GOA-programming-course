@@ -42,16 +42,21 @@ body{
 .Georgian-bank{
     position: relative;
     left: 565px;
-    top: -13.2px;
+    z-index: 1;
+    left: 310px;
+    top: -16px;
 }
 
 #parent{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     gap: 15px;
     position: relative;
-    left: 650px;
-    top: -77px;
+    left: 450px;
+    top: -80px;
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+    border-radius: 5px;
 }
 
 .dots{
@@ -107,4 +112,85 @@ body{
     height: 45px;
     top: 2px;
     left: 50px;
+}
+
+.language{
+    z-index: 1;
+    color: rgb(47, 47, 47);
+    position: relative;
+    left: 41px;
+}
+
+.search{
+    position: relative;
+    left: 35px;
+    top: 7px;
+}
+
+.second-nav{
+    height: 55px;
+    width: 110%;
+    background-color: rgb(254, 95, 10);
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    color: rgb(255, 242, 229);
+    position: relative;
+    top: -80px;
+    left: -8px;
+}
+
+.slide-div{
+    width: 1150px;
+    height: 530px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 28px;
+}
+
+.slide-div-parent{
+    display: flex;
+    justify-content: center;
+}
+
+.business{
+    border-radius: 15px;
+    position: relative;
+    left: 620px;
+    top: -385px;
+}
+
+.element{
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: normal;
+    width: 250px;
+    position: relative;
+    left: 30px;
+    top: -14px;
+}
+
+.element-2{
+    font-weight: 500;
+    color: inherit;
+    font-size: 18px;
+    width: 410px;
+    padding-left: 25px;
+    position: relative;
+    top: -32px;
+}
+
+button{
+    width: 170px;
+    height: 50px;
+    background-color: rgb(252, 103, 25);
+    position: relative;
+    left: -450px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    top: -317px;
+    left: -485px;
+    font-size: 15px;
 }
